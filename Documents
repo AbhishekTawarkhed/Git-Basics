@@ -1,0 +1,61 @@
+1. Introduction to Git
+  
+  -Git is a distributed version control system (VCS).
+
+  -It helps track changes in source code, collaborate with others, and maintain history.
+
+  - Key idea: Every developer has a full copy of the repository (not just a snapshot).Git vs GitHub vs GitLab
+
+2. Difference between Git,GitHub and GitLab 
+
+  - Git: A version control system that runs locally on your machine.
+
+  - GitHub: A cloud-based hosting service for Git repositories. Adds collaboration features like pull requests, issues, and CI/CD.
+
+  - GitLab: Similar to GitHub but also offers built-in DevOps tools like CI/CD pipelines, project management, and self-hosting options.
+
+3. Basic Git Commands
+
+  - git init
+
+  Initializes a new Git repository in a folder.
+
+  ex :
+     mkdir myproject
+     cd myproject
+     git init
+
+  -git clone
+
+  Copies an existing repository (from GitHub/GitLab) to your local machine.
+
+  ex :
+      git clone https://github.com/user/repo.git
+
+  -git add
+
+      Stages changes (prepares them for commit).
+
+git add file1.txt
+git add .
+
+git commit    Saves staged changes with a message.
+
+bash
+
+git commit -m "Added new feature"
+
+git push
+
+    Uploads local commits to a remote repository.
+
+bash
+
+git push origin main
+
+git pull
+
+    Fetches and merges changes from remote
+git pull origin main
+
+
