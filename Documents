@@ -130,29 +130,6 @@ Other branch changes
 - Keep the `main` branch stable (merge only tested code).
 - Use `.gitignore` to avoid committing unnecessary files.
 - Review code via pull requests before merging.
-- Use CI/CD pipelines for automated testing.
 
 ---
 
-## 7. Example Workflow (Team Collaboration)
-
-```bash
-# Clone repo
-git clone https://github.com/org/project.git
-
-# Create branch
-git checkout -b feature-search
-
-# Make changes, stage, commit
-git add search.js
-git commit -m "Implement search functionality"
-
-# Push branch
-git push origin feature-search
-
-# Merge after review
-git checkout main
-git merge feature-search
-```
-
----
