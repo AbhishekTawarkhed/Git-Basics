@@ -92,6 +92,23 @@ git commit -m "Added b.txt in leaf branch"
 git checkout master
 git merge leaf
 ```
+### Handling Merge Conflicts
+
+```text
+
+<<<<<<< HEAD
+Your changes
+=======
+Other branch changes
+>>>>>>> leaf
+
+Edit the file to resolve conflict
+
+Steps:
+```bash
+git add conflicted_file.txt
+git commit
+```
 ### Working with Remotes
 
 ```bash
@@ -109,4 +126,4 @@ git push -u origin main
 - Keep the `main` branch stable (merge only tested code).
 - Use `.gitignore` to avoid committing unnecessary files.
 - Review code via pull requests before merging.
-```
+
