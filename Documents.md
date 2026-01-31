@@ -17,7 +17,7 @@
 ---
 
 ## 3. Git Workflow Example
-# Initialize Git repository
+### Initialize Git repository
 
 ```bash
 mkdir myproject
