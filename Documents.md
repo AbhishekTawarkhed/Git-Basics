@@ -18,11 +18,6 @@
 
 ## 3. Git Workflow Example
 
-
-
-
-
-
 ### Git Configuration
 
 ```bash
@@ -38,16 +33,39 @@ cd myproject
 git init
 ```
 ### Add a file a.txt
-
+  
 ```bash
 echo "First file content" > a.txt
 git add a.txt
+```
+### Checking Repository Status
+
+```bash
+
+git status
+```
+### Undoing Changes
+```bash
+git restore --staged a.txt
 ```
 ### Make a commit
 
 ```bash
 git commit -m "Added a.txt"
 ```
+### Viewing History
+
+```bash
+
+git log
+```
+### Viewing History
+
+```bash
+
+git log
+```
+
 ### Create a branch called leaf
 
 ```bash
@@ -74,7 +92,13 @@ git commit -m "Added b.txt in leaf branch"
 git checkout master
 git merge leaf
 ```
+### Working with Remotes
 
+```bash
+
+git remote add origin https://github.com/user/repo.git
+git push -u origin main
+```
 ---
 
 ## 4. Best Practices for Collaboration
