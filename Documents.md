@@ -95,7 +95,6 @@ git merge leaf
 ### Handling Merge Conflicts
 
 ```text
-
 <<<<<<< HEAD
 Your changes
 =======
@@ -104,7 +103,6 @@ Other branch changes
 ```
 Edit the file to resolve conflict
 
-Steps:
 ```bash
 git add conflicted_file.txt
 git commit
