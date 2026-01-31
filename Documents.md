@@ -17,6 +17,13 @@
 ---
 
 ## 3. Git Workflow Example
+1. Git Configuration
+
+Show how to set up username and email (needed before first commit).
+bash
+
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 ### Initialize Git repository
 
 ```bash
