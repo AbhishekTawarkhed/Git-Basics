@@ -59,13 +59,6 @@ git commit -m "Added a.txt"
 
 git log
 ```
-### Viewing History
-
-```bash
-
-git log
-```
-
 ### Create a branch called leaf
 
 ```bash
