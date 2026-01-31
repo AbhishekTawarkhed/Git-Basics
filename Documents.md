@@ -21,9 +21,12 @@
 mkdir myproject
 cd myproject
 git init
+
+---
 # Add a file a.txt
 echo "First file content" > a.txt
 git add a.txt
+---
 # Make a commit
 git commit -m "Added a.txt"
 # Create a branch called leaf
