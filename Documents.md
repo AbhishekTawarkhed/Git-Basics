@@ -1,4 +1,4 @@
-```markdown
+
 # Introduction to Git
 
 ## 1. What is Git?
@@ -17,9 +17,9 @@
 ---
 
 ## 3. Git Workflow Example
+# Initialize Git repository
 
 ```bash
-# Initialize Git repository
 mkdir myproject
 cd myproject
 git init
