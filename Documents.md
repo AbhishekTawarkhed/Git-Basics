@@ -1,5 +1,3 @@
-Here’s the corrected and properly formatted single Markdown file for your Git introduction and workflow example:
-
 ```markdown
 # Introduction to Git
 
@@ -71,10 +69,5 @@ git merge leaf
 - Use `.gitignore` to avoid committing unnecessary files.
 - Review code via pull requests before merging.
 ```
-
-This version fixes the formatting issues:
-- Each command block is separated into its own fenced code block.
-- Removed stray `---` inside code fences.
-- Organized sections consistently with headings.  
 
 Would you like me to also add a **section on handling merge conflicts** (like in your earlier file) so this becomes a complete beginner-friendly guide?
