@@ -40,6 +40,10 @@ git commit -m "Added a.txt"
 ```bash
 git checkout -b leaf
 ```
+or 
+```bash
+git switch -c leaf
+```
 ### Add a file b.txt
 
 ```bash
