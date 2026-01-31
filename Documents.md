@@ -24,36 +24,36 @@ mkdir myproject
 cd myproject
 git init
 ```
+### Add a file a.txt
 
 ```bash
-# Add a file a.txt
 echo "First file content" > a.txt
 git add a.txt
 ```
+### Make a commit
 
 ```bash
-# Make a commit
 git commit -m "Added a.txt"
 ```
+### Create a branch called leaf
 
 ```bash
-# Create a branch called leaf
 git checkout -b leaf
 ```
+### Add a file b.txt
 
 ```bash
-# Add a file b.txt
 echo "Second file content" > b.txt
 git add b.txt
 ```
+### Create a second commit
 
 ```bash
-# Create a second commit
 git commit -m "Added b.txt in leaf branch"
 ```
+### Merge leaf into master
 
 ```bash
-# Merge leaf into master
 git checkout master
 git merge leaf
 ```
