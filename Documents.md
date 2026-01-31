@@ -112,7 +112,7 @@ git push -u origin main
 ## 4. Best Practices for Collaboration
 
 - Use branches for features/bug fixes.
-- Write clear commit messages (imperative style: “Add login form”).
+- Write clear commit messages (“Add login form”).
 - Pull often to stay updated with team changes.
 - Keep the `main` branch stable (merge only tested code).
 - Use `.gitignore` to avoid committing unnecessary files.
