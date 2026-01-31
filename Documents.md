@@ -101,7 +101,7 @@ Your changes
 =======
 Other branch changes
 >>>>>>> leaf
-
+```
 Edit the file to resolve conflict
 
 Steps:
