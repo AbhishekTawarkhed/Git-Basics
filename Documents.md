@@ -69,5 +69,3 @@ git merge leaf
 - Use `.gitignore` to avoid committing unnecessary files.
 - Review code via pull requests before merging.
 ```
-
-Would you like me to also add a **section on handling merge conflicts** (like in your earlier file) so this becomes a complete beginner-friendly guide?
