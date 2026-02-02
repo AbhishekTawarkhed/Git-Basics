@@ -46,7 +46,7 @@ git status
 ```
 ### Undoing Changes
 ```bash
-git restore --staged a.txt
+git rm --cached a.txt
 ```
 ### Make a commit
 
