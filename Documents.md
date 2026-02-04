@@ -68,16 +68,16 @@ or
 ```bash
 git switch -c leaf
 ```
-### Add a file b.txt
+### Modify the file a.txt
 
 ```bash
-echo "Second file content" > b.txt
-git add b.txt
+echo "Second file content" > a.txt
+git add a.txt
 ```
 ### Create a second commit
 
 ```bash
-git commit -m "Added b.txt in leaf branch"
+git commit -m "Modified a.txt in leaf branch"
 ```
 ### Merge leaf into master
 
@@ -105,7 +105,7 @@ git commit
 ```bash
 
 git remote add origin https://github.com/user/repo.git
-git push -u origin main
+git push -u origin master
 ```
 ---
 
