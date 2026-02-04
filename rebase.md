@@ -7,14 +7,6 @@ mkdir rebase-demo
 cd rebase-demo
 git init
 ```
----
-## 1. Initialize a Repository
-
-```bash
-mkdir rebase-demo
-cd rebase-demo
-git init
-```
 
 ---
 
