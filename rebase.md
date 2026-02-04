@@ -6,10 +6,8 @@
 mkdir rebase-demo
 cd rebase-demo
 git init
-
+```
 ---
-
-
 ## 1. Initialize a Repository
 
 ```bash
@@ -81,7 +79,11 @@ git rebase master
 ```
 
 ---
+9. Verify History
+```bash
+
+git log --oneline 
 
 
-
+```
 
