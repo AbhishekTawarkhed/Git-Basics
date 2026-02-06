@@ -79,10 +79,19 @@ git add a.txt
 ```bash
 git commit -m "Modified a.txt in leaf branch"
 ```
+### Switch back to master 
+```bash
+git checkout master
+```
+### Modify a.txt differently in master branch and commit 
+```bash
+echo "Master branch change" > a.txt
+git add a.txt
+git commit -m "Modified a.txt in master branch"
+```
 ### Merge leaf into master
 
 ```bash
-git checkout master
 git merge leaf
 ```
 ### Handling Merge Conflicts
