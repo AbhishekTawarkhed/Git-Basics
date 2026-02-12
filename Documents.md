@@ -106,7 +106,7 @@ Other branch changes
 Edit the file to resolve conflict
 
 ```bash
-git add conflicted_file.txt
+git add a.txt
 git commit
 ```
 ### Working with Remotes
