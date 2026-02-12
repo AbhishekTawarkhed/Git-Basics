@@ -107,7 +107,7 @@ Edit the file to resolve conflict
 
 ```bash
 git add a.txt
-git commit -m "resolved conflict"
+git commit -m "resolved conflict in a.txt"
 ```
 ### Working with Remotes
 
